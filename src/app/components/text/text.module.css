@@ -49,4 +49,19 @@
   text-transform: uppercase;
 
   border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(170%);
+}
+
+@media screen and (max-width: 1000px) {
+  .main {
+    text-align: center;
+  }
+
+  .buttons {
+    justify-content: center;
+  }
 }

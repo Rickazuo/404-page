@@ -5,3 +5,10 @@
   height: 100dvh;
   gap: 15.125rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .main {
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
